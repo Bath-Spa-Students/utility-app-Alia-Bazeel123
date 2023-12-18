@@ -32,11 +32,11 @@ print(" ")
 print("~~~~~~~~~~~~~~~~~~~~ Welcome to the World Famous Vending Machine ~~~~~~~~~~~~~~~~~~~~")
 
 is_quit = False
-total_cost = 0  # Track the total cost of items
-purchased_items = []  # List to store purchased items
+total_cost = 0                      # Track the total cost of items
+purchased_items = []                # List to store purchased items
 
 while not is_quit:
-    print("                                                                                     ")
+    print("                  ")
 
     query = input("Enter the code number of the item you want to get (or type 'q' to quit): ")
     
